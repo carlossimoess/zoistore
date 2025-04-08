@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ZoiStore - Sua Loja de Computadores</title>
+    <link rel="icon" href="icon.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <table>
+        <thead>
+            <tr>
+                <th colspan="3" class="cabecalho">
+                    <a href="index.html"><h1>ZoiStore</h1></a>
+                    <form action="busca.html" method="get">
+                        <input type="text" placeholder="Buscar produtos..." name="termo">
+                        <button type="submit">Buscar</button>
+                    </form>
+                </th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td colspan="3" class="menu">
+                    <a href="index.html">Página Inicial</a> |
+                    <a href="sobre.html">Sobre Nós</a> |
+                    <a href="contato.html">Entre em Contato</a> |
+                    <a href="busca.html">Buscar Produtos</a>
+                </td>
+            </tr>
+            <tr>
+                <td class="propaganda">
+                    <h3>Promoções</h3>
+                    <ul>
+                        <li>Notebook Gamer</li>
+                        <li>Monitor 4K</li>
+                        <li>Teclado Mecânico</li>
+                    </ul>
+                </td>
+                <td class="conteudo-principal">
+                    <h2>Bem-vindo à ZoiStore!</h2>
+                    <p>Encontre os melhores computadores e acessórios com os melhores preços.</p>
+                    <div class="botoes-destaque">
+                        <button><a href="busca.html?tipo=notebook">Notebooks</a></button>
+                        <button><a href="busca.html?tipo=desktop">Desktops</a></button>
+                        <button><a href="busca.html?tipo=acessorio">Acessórios</a></button>
+                    </div>
+                    <div class="propaganda-central">
+                        <img src="propaganda.png" alt="Propaganda">
+                    </div>
+                </td>
+                <td class="propaganda">
+                    <h3>Novidades</h3>
+                    <ul>
+                        <li>Placa de Vídeo RTX 5000</li>
+                        <li>Processador Intel Core i9</li>
+                        <li>Mouse Gamer Sem Fio</li>
+                    </ul>
+                </td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="3" class="rodape">
+                    <p>&copy; 2025 ZoiStore - Todos os direitos reservados.</p>
+                </td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>

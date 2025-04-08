@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buscar Produtos - ZoiStore</title>
+    <link rel="icon" href="icon.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <table>
+        <thead>
+            <tr>
+                <th colspan="2" class="cabecalho">
+                    <a href="index.html"><h1>ZoiStore</h1></a>
+                    <form action="busca.html" method="get">
+                        <input type="text" placeholder="Buscar produtos..." name="termo">
+                        <button type="submit">Buscar</button>
+                    </form>
+                </th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td colspan="2" class="menu">
+                    <a href="index.html">Página Inicial</a> |
+                    <a href="sobre.html">Sobre Nós</a> |
+                    <a href="contato.html">Entre em Contato</a> |
+                    <a href="busca.html">Buscar Produtos</a>
+                </td>
+            </tr>
+            <tr>
+                <td class="filtros">
+                    <h3>Filtrar por:</h3>
+                    <ul>
+                        <li><a href="?tipo=notebook">Notebooks</a></li>
+                        <li><a href="?tipo=desktop">Desktops</a></li>
+                        <li><a href="?tipo=acessorio">Acessórios</a></li>
+                        <li><a href="?preco=500-1000">Preço: R$500 - R$1000</a></li>
+                        <li><a href="?preco=1000-2000">Preço: R$1000 - R$2000</a></li>
+                        </ul>
+                </td>
+                <td class="resultados-busca">
+                    <h2>Resultados da Busca</h2>
+                    <div class="produto">
+                        <h3>Notebook Exemplo 1</h3>
+                        <img src="notebook.jpeg" alt="Note Gamer">
+                        <p>Descrição breve do notebook.</p>
+                        <p><strong>Preço: R$ 1500,00</strong></p>
+                        <button>Ver Detalhes</button>
+                    </div>
+                    <div class="produto">
+                        <h3>Desktop Exemplo 2</h3>
+                        <img src="desktop.jpeg" alt="Desktop Gamer">
+                        <p>Descrição breve do desktop.</p>
+                        <p><strong>Preço: R$ 2200,00</strong></p>
+                        <button>Ver Detalhes</button>
+                    </div>
+                    <div class="produto">
+                        <img src="mousegamer.png" alt="Mouse Gamer">
+                        <h3>Mouse Gamer Exemplo 3</h3>
+                        <p>Descrição breve do mouse gamer.</p>
+                        <p><strong>Preço: R$ 150,00</strong></p>
+                        <button>Ver Detalhes</button>
+                    </div>
+                    </td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="2" class="rodape">
+                    <p>&copy; 2025 ZoiStore - Todos os direitos reservados.</p>
+                </td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>
